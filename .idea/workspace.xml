@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4027ecea-1f21-4828-8f1a-c08389d15134" name="Default Changelist" comment="" />
+    <list default="true" id="4027ecea-1f21-4828-8f1a-c08389d15134" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/策略模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/factory/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/singleton/Demo01.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +23,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1eMG7gx1C3KK8wv6NLoqtKTFnFe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -48,7 +67,7 @@
       <recent name="com.rul.designpattern.singleton" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Sorter03">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.singleton.Main" />
       <module name="DesignPattern" />
@@ -62,8 +81,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sorter01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.strategy.Sorter01" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rul.designpattern.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorter02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.strategy.Sorter02" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rul.designpattern.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorter03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.strategy.Sorter03" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rul.designpattern.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sorter03" />
+        <item itemvalue="Application.Sorter01" />
+        <item itemvalue="Application.Sorter02" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -92,32 +153,63 @@
       <updated>1594123882272</updated>
       <workItem from="1594123883865" duration="3382000" />
       <workItem from="1594132492412" duration="20000" />
+      <workItem from="1594180550282" duration="4760000" />
+      <workItem from="1594192902712" duration="4207000" />
+      <workItem from="1594259624835" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="单例模式">
+      <created>1594181522298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594181522298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Inspections" timestamp="1594183781891">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1594183781891" />
     <state x="233" y="0" key="#Project_Structure" timestamp="1594123902905">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1594123902905" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1594130002742">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1594184386031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594130002742" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1594130002741">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594184386031" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1594181521593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594130002741" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1594130002741">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1594181521593" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1594185369098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594130002741" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1594130002742">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1594185369098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594130002742" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1594185369097">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594185369097" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1594185369098">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1594181531830">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594181531830" />
   </component>
 </project>
