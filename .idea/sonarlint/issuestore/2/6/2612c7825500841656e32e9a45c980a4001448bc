@@ -1,0 +1,17 @@
+
+L
+java:S1068"*Remove this unused "engine" private field.(ï“„ıÿÿÿÿ8â´ÓˆÛ.
+M
+java:S1068"+Remove this unused "gearbox" private field.(–­œ©şÿÿÿÿ8°€ØˆÛ.
+p
+java:S1450"SRemove the "tire" field and declare it as a local variable in the relevant methods.(×¼Şš8»¶ÙˆÛ.
+x
+java:S1450"VRemove the "gearbox" field and declare it as a local variable in the relevant methods.(–­œ©şÿÿÿÿ8»¶ÙˆÛ.
+J
+java:S1068"(Remove this unused "body" private field.(ĞÒñãùÿÿÿÿ8’ÏˆÛ.
+w
+java:S1450"URemove the "engine" field and declare it as a local variable in the relevant methods.(ï“„ıÿÿÿÿ8»¶ÙˆÛ.
+E
+java:S1068"(Remove this unused "tire" private field.(×¼Şš8â´ÓˆÛ.
+u
+java:S1450"SRemove the "body" field and declare it as a local variable in the relevant methods.(ĞÒñãùÿÿÿÿ8»¶ÙˆÛ.

@@ -2,18 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4027ecea-1f21-4828-8f1a-c08389d15134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/Sorter03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/strategy/策略模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/builder/BuilderDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/builder/F1RaceCarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/builder/RaceCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/builder/RaceCarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/builder/TruckRaceCarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/AKBullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/AKFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/AKGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/DateBaseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/M416Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/M416Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/M416Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/abstractfactory/WeaponsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/BirdFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/CatFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod/SheepFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/simplefactory/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/工厂模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/prototype/Resume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rul/designpattern/singleton/VirtualUserGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/factory/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/singleton/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Comparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rul/designpattern/strategy/Sorter03.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +58,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +91,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/rul/designpattern/factory/factorymethod" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -64,16 +99,46 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rul.designpattern.factory.factorymethod" />
       <recent name="com.rul.designpattern.singleton" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\DesignPattern\src\main\java\com\rul\designpattern\factory\factorymethod" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Sorter03">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.singleton.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.factory.simplefactory.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rul.designpattern.singleton.*" />
+          <option name="PATTERN" value="com.rul.designpattern.factory.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.factory.factorymethod.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rul.designpattern.factory.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.factory.abstractfactory.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rul.designpattern.factory.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,19 +148,6 @@
     </configuration>
     <configuration name="Sorter01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.strategy.Sorter01" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rul.designpattern.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sorter02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rul.designpattern.strategy.Sorter02" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
@@ -122,10 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Sorter03" />
         <item itemvalue="Application.Sorter01" />
-        <item itemvalue="Application.Sorter02" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +209,13 @@
       <workItem from="1594180550282" duration="4760000" />
       <workItem from="1594192902712" duration="4207000" />
       <workItem from="1594259624835" duration="10000" />
+      <workItem from="1594520573916" duration="1995000" />
+      <workItem from="1594524210757" duration="6387000" />
+      <workItem from="1594569221656" duration="5000" />
+      <workItem from="1594571049151" duration="40000" />
+      <workItem from="1594706486760" duration="6000" />
+      <workItem from="1604984670052" duration="11033000" />
+      <workItem from="1605005509890" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式">
       <created>1594181522298</created>
@@ -175,41 +235,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Inspections" timestamp="1594183781891">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1604998472957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1594183781891" />
-    <state x="233" y="0" key="#Project_Structure" timestamp="1594123902905">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1594123902905" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1594184386031">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594184386031" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1594181521593">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1594181521593" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1594185369098">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1594185369098">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1594185369097">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594185369097" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1594185369098">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594185369098" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1594181531830">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594181531830" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1604998472957" />
   </component>
 </project>
